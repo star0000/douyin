@@ -1,4 +1,4 @@
-package com.wangshifei.douyin;
+package com.wangshifei.douyin.retrofit;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;

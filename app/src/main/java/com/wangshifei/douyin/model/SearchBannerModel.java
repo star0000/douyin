@@ -1,14 +1,13 @@
 package com.wangshifei.douyin.model;
 
-import com.wangshifei.douyin.Api;
-import com.wangshifei.douyin.RetrofitHelper;
-import com.wangshifei.douyin.UrlClass;
+import com.wangshifei.douyin.api.Api;
+import com.wangshifei.douyin.retrofit.RetrofitHelper;
+import com.wangshifei.douyin.url.UrlClass;
 import com.wangshifei.douyin.bean.SearchBannerBean;
 import com.wangshifei.douyin.presenter.SearchBannerPresenterInterface;
 
 import java.util.List;
 
-import io.reactivex.Scheduler;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;

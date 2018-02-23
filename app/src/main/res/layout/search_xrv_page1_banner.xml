@@ -29,13 +29,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="#FFF4EFEF"
-                android:text="百万英雄"/>
+                android:text="站好,喷泉表演开始啦!"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="#FFF4EFEF"
-                android:text="热搜内容"/>
+                android:text="白羊"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,13 +48,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="#FFF4EFEF"
-                android:text="热搜内容"/>
+                android:text="我也来玩旧照新拍"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="#FFF4EFEF"
-                android:text="热搜内容"/>
+                android:text="介绍一下,这是我的家乡"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,32 +67,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="#FFF4EFEF"
-                android:text="热搜内容"/>
+                android:text="牵妈妈的手"/>
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="#FFF4EFEF"
-                android:text="热搜内容"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp">
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="#FFF4EFEF"
-                android:text="热搜内容"/>
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="#FFF4EFEF"
-                android:text="热搜内容"/>
+                android:text="你知道什么是豆芽抖吗"/>
         </LinearLayout>
     </LinearLayout>
 

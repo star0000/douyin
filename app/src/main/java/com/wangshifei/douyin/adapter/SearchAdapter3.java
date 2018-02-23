@@ -1,4 +1,4 @@
-package com.wangshifei.douyin;
+package com.wangshifei.douyin.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
+import com.wangshifei.douyin.R;
 import com.wangshifei.douyin.bean.SearchBean;
 
 import java.util.List;
@@ -42,8 +43,10 @@ public class SearchAdapter3 extends XRecyclerView.Adapter<SearchAdapter3.ViewHol
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
+
         String img = categoryList.get(position).getAweme_list().get(position).getVideo().getOrigin_cover().getUrl_list().get(0);
         holder.searchSimple.setImageURI(img);
+
     }
 
     @Override

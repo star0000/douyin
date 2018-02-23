@@ -1,8 +1,8 @@
 package com.wangshifei.douyin.model;
 
-import com.wangshifei.douyin.Api;
-import com.wangshifei.douyin.RetrofitHelper;
-import com.wangshifei.douyin.UrlClass;
+import com.wangshifei.douyin.api.Api;
+import com.wangshifei.douyin.retrofit.RetrofitHelper;
+import com.wangshifei.douyin.url.UrlClass;
 import com.wangshifei.douyin.bean.SearchBean;
 import com.wangshifei.douyin.presenter.SearchPresenterInterface;
 

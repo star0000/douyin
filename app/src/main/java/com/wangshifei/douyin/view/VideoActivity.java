@@ -1,6 +1,7 @@
-package com.wangshifei.douyin;
+package com.wangshifei.douyin.view;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +10,8 @@ import android.view.View;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
+import com.wangshifei.douyin.EventBusMessage;
+import com.wangshifei.douyin.R;
 import com.wangshifei.douyin.bean.SearchBean;
 
 import org.greenrobot.eventbus.EventBus;
@@ -37,6 +40,8 @@ public class VideoActivity extends AppCompatActivity {
         mediaController = new MediaController(VideoActivity.this);
         videoView.setMediaController(mediaController);
         mediaController.setMediaPlayer(videoView);
+//        int measuredHeight = videoView.getMeasuredHeight();
+//        int measuredWidth = videoView.getMeasuredWidth();
         videoView.start();
     }
 

@@ -1,4 +1,4 @@
-package com.wangshifei.douyin;
+package com.wangshifei.douyin.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,6 +11,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
+import com.wangshifei.douyin.GlideImageLoad;
+import com.wangshifei.douyin.R;
 import com.wangshifei.douyin.bean.SearchBannerBean;
 import com.wangshifei.douyin.bean.SearchBean;
 import com.youth.banner.Banner;

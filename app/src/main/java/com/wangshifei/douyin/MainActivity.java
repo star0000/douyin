@@ -9,6 +9,7 @@ import android.widget.GridLayout;
 import android.widget.Toast;
 
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
+import com.wangshifei.douyin.adapter.SearchAdapter1;
 import com.wangshifei.douyin.bean.SearchBannerBean;
 import com.wangshifei.douyin.bean.SearchBean;
 import com.wangshifei.douyin.presenter.SearchBannerPresenter;

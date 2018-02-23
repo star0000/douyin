@@ -1,4 +1,4 @@
-package com.wangshifei.douyin;
+package com.wangshifei.douyin.api;
 
 import com.wangshifei.douyin.bean.SearchBannerBean;
 import com.wangshifei.douyin.bean.SearchBean;

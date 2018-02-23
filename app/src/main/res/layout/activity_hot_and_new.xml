@@ -64,7 +64,7 @@
                 android:id="@+id/lin3"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="#FF5E6061"
+                android:background="#4a4c4d"
                 android:orientation="horizontal">
                 <ImageView
                     android:id="@+id/back"
